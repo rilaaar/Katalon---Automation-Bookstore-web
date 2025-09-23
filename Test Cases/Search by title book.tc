@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search by title book</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab6299cb-3b97-41bf-8c5c-a91195792b98</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bbddd5e3-267e-40c7-bb69-fc4d842e5f60</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c57eed9-cf34-4045-b6b5-a55e033306e3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bbddd5e3-267e-40c7-bb69-fc4d842e5f60</id>
+      <masked>false</masked>
+      <name>index</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7c57eed9-cf34-4045-b6b5-a55e033306e3</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+</TestCaseEntity>

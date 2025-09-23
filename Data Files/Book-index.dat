@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Book-index</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>a6f5f84c-ee46-4142-aaba-776228a07aa6</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>1 Test+Automation+in+the+Real+World Greg+Paskal %249.99</data>
+   <data>2 Experiences+of+Test+Automation Dorothy+Graham+and+Mark+Fewster %2444.09</data>
+   <data>3 Agile+Testing Lisa+Crispin+and+Janet+Gregory %2449.07</data>
+   <data>4 How+Google+Tests+Software James+A.+Whittaker%2C+Jason+Arbon%2C+Jeff+Carollo %2431.67</data>
+   <data>5 Java+For+Testers Alan+Richardson %2429.99</data>
+   <data>6 Advanced+Selenium+in+Java Paul+Watson %2429.99</data>
+   <data>7 The+Cucumber+for+Java+Book Seb+Rose %2434.99</data>
+   <data>8 BDD+in+Action John+Ferguson+Smart %2440.31</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>index</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>title</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>author</name>
+      <size>8</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>price</name>
+      <size>8</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

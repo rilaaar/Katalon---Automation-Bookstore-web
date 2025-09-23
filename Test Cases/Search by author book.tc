@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search by author book</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>190ee284-a4e3-44c7-bb5e-40a04353a469</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>48300d3a-b67e-4556-b8f3-5c3b01524f71</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>609e859c-ee34-4efa-bf09-48fd17640256</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>48300d3a-b67e-4556-b8f3-5c3b01524f71</id>
+      <masked>false</masked>
+      <name>index</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>609e859c-ee34-4efa-bf09-48fd17640256</id>
+      <masked>false</masked>
+      <name>author</name>
+   </variable>
+</TestCaseEntity>
