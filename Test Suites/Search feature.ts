@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Search feature</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>1d000ad9-f6cf-4406-a441-c7d5c527bbe1</testSuiteGuid>
+   <testCaseLink>
+      <guid>5b2f44d0-089a-4456-aa7d-2ad2d8216cb7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Search by title book</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4bc771d5-dd5c-445c-8d9b-cb9c4a1c3e7f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Book-index</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>4bc771d5-dd5c-445c-8d9b-cb9c4a1c3e7f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>index</value>
+         <variableId>bbddd5e3-267e-40c7-bb69-fc4d842e5f60</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4bc771d5-dd5c-445c-8d9b-cb9c4a1c3e7f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>title</value>
+         <variableId>7c57eed9-cf34-4045-b6b5-a55e033306e3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>83631404-b56d-40d5-9862-eff0f18276d8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Search by author book</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>feccd15a-8b42-44b8-be06-a8cdf75da2cc</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Book-index</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>feccd15a-8b42-44b8-be06-a8cdf75da2cc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>index</value>
+         <variableId>48300d3a-b67e-4556-b8f3-5c3b01524f71</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>feccd15a-8b42-44b8-be06-a8cdf75da2cc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>author</value>
+         <variableId>609e859c-ee34-4efa-bf09-48fd17640256</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0863d11f-b991-451c-8adb-6a24ddbfe514</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Search by price book</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2e939aa0-867b-45ff-a4a7-0da6d8ff4d42</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Book-index</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>2e939aa0-867b-45ff-a4a7-0da6d8ff4d42</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>index</value>
+         <variableId>10915d28-be33-4c6e-951c-42a976584749</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2e939aa0-867b-45ff-a4a7-0da6d8ff4d42</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>price</value>
+         <variableId>8f5ff943-0214-4a09-bbff-8825720c8c7e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

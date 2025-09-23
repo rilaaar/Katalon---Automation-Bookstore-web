@@ -17,9 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.baseUrl)
+//WebUI.openBrowser('')
+
+//WebUI.navigateToUrl(GlobalVariable.baseUrl)
+
+WebUI.click(findTestObject('pid-item', [('index') : index]))
 
 WebUI.verifyElementText(findTestObject('pid-title', [('index') : index]), title)
 
@@ -27,4 +30,6 @@ WebUI.verifyElementText(findTestObject('pid-author', [('index') : index]), autho
 
 WebUI.verifyElementText(findTestObject('pid-price', [('index') : index]), price)
 
-WebUI.closeBrowser()
+WebUI.delay(2)
+
+//WebUI.closeBrowser()
