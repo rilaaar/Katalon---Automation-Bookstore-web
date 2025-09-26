@@ -18,14 +18,14 @@
       <variableId>8f5ff943-0214-4a09-bbff-8825720c8c7e</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'1'</defaultValue>
       <description></description>
       <id>10915d28-be33-4c6e-951c-42a976584749</id>
       <masked>false</masked>
       <name>index</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'$9.99'</defaultValue>
       <description></description>
       <id>8f5ff943-0214-4a09-bbff-8825720c8c7e</id>
       <masked>false</masked>

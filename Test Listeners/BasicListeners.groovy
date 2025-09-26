@@ -22,31 +22,62 @@ import com.kms.katalon.core.annotation.AfterTestSuite
 import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 
+import com.kms.katalon.core.webui.driver.DriverFactory
+
 class BasicListeners {
-    
+
+    // Flag penanda apakah sedang dijalankan dalam suite
+    static boolean isSuiteMode = false
+    // Daftar test suite yang mau dikecualikan
+    static List<String> excludedSuites = [
+        "Test Suites/Detail books one by one"
+    ]
+
     @BeforeTestSuite
-    def openBrowserAndNavigate(TestSuiteContext testSuiteContext) {
-        
-        String suiteId = testSuiteContext.getTestSuiteId()
-        
-        if (!suiteId.contains("Detail books one by one")) {
+    def beforeSuite(TestSuiteContext testSuiteContext) {
+        println("=== BeforeTestSuite: " + testSuiteContext.getTestSuiteId())
+
+        if (excludedSuites.contains(testSuiteContext.getTestSuiteId())) {
+            println("⚠️ Suite ini termasuk excluded, jalan seperti standalone")
+            isSuiteMode = false
+        } else {
+            isSuiteMode = true
             WebUI.openBrowser('')
             WebUI.navigateToUrl(GlobalVariable.baseUrl)
-            WebUI.comment("✅ Browser opened for suite: " + suiteId)
-        } else {
-            WebUI.comment("⏩ Skip Open Browser for suite: " + suiteId)
         }
     }
 
     @AfterTestSuite
-    def CloseBrowser(TestSuiteContext testSuiteContext) {
-        String suiteId = testSuiteContext.getTestSuiteId()
-        
-        if (!suiteId.contains("Detail books one by one")) {
+    def afterSuite(TestSuiteContext testSuiteContext) {
+        println("=== AfterTestSuite: " + testSuiteContext.getTestSuiteId())
+
+        if (isSuiteMode && DriverFactory.getWebDriver() != null) {
             WebUI.closeBrowser()
-            WebUI.comment("✅ Browser closed for suite: " + suiteId)
+        }
+
+        isSuiteMode = false
+    }
+
+    @BeforeTestCase
+    def beforeCase(TestCaseContext testCaseContext) {
+        if (!isSuiteMode) { // kalau standalone atau excluded suite
+            println("=== BeforeTestCase (standalone/excluded): " + testCaseContext.getTestCaseId())
+            WebUI.openBrowser('')
+            WebUI.navigateToUrl(GlobalVariable.baseUrl)
         } else {
-            WebUI.comment("⏩ Skip close browser for suite: " + suiteId)
+            println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId())
+        }
+    }
+
+    @AfterTestCase
+    def afterCase(TestCaseContext testCaseContext) {
+        println("=== AfterTestCase: " + testCaseContext.getTestCaseId() +
+                " | Status: " + testCaseContext.getTestCaseStatus())
+
+        if (!isSuiteMode) { // standalone atau excluded, tutup browser tiap case
+            if (DriverFactory.getWebDriver() != null) {
+                WebUI.closeBrowser()
+            }
         }
     }
 }

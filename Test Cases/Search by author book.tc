@@ -18,14 +18,14 @@
       <variableId>609e859c-ee34-4efa-bf09-48fd17640256</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'1'</defaultValue>
       <description></description>
       <id>48300d3a-b67e-4556-b8f3-5c3b01524f71</id>
       <masked>false</masked>
       <name>index</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Greg Paskal'</defaultValue>
       <description></description>
       <id>609e859c-ee34-4efa-bf09-48fd17640256</id>
       <masked>false</masked>

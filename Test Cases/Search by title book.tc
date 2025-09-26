@@ -18,14 +18,14 @@
       <variableId>7c57eed9-cf34-4045-b6b5-a55e033306e3</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'1'</defaultValue>
       <description></description>
       <id>bbddd5e3-267e-40c7-bb69-fc4d842e5f60</id>
       <masked>false</masked>
       <name>index</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Test Automation in the Real World'</defaultValue>
       <description></description>
       <id>7c57eed9-cf34-4045-b6b5-a55e033306e3</id>
       <masked>false</masked>

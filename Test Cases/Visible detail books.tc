@@ -30,28 +30,28 @@
       <variableId>7fef12c7-65ee-4e78-a91b-c0aea7cfcbf2</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'1'</defaultValue>
       <description></description>
       <id>52d3a4d3-66da-4d24-a20a-776bbb27a0e0</id>
       <masked>true</masked>
       <name>index</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Test Automation in the Real World'</defaultValue>
       <description></description>
       <id>5247fbdb-ab21-4ba9-bf38-c72395a2f58e</id>
       <masked>true</masked>
       <name>title</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Greg Paskal'</defaultValue>
       <description></description>
       <id>90f43e6d-4a2f-49e3-93e7-a78cff01b9c6</id>
       <masked>true</masked>
       <name>author</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'$9.99'</defaultValue>
       <description></description>
       <id>7fef12c7-65ee-4e78-a91b-c0aea7cfcbf2</id>
       <masked>true</masked>
