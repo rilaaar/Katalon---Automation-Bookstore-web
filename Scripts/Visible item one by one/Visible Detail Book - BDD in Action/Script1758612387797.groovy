@@ -23,9 +23,11 @@ WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 WebUI.verifyElementText(findTestObject('pid-title', [('index') : '8']), 'BDD in Action')
 
-WebUI.verifyElementText(findTestObject('pid-author', [('index') : '8']),'John Ferguson Smart')
+WebUI.verifyElementText(findTestObject('pid-author', [('index') : '8']), 'John Ferguson Smart')
 
-WebUI.verifyElementText(findTestObject('pid-price', [('index') : '8']),'$40.31')
+WebUI.verifyElementText(findTestObject('pid-price', [('index') : '8']), '$40.31')
+
+WebUI.click(findTestObject('Bookstore Library/pid8-item'))
 
 WebUI.closeBrowser()
 

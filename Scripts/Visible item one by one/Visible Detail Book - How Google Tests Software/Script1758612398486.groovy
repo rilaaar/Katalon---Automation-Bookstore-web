@@ -23,9 +23,11 @@ WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 WebUI.verifyElementText(findTestObject('pid-title', [('index') : '4']), 'How Google Tests Software')
 
-WebUI.verifyElementText(findTestObject('pid-author', [('index') : '4']),'James A. Whittaker, Jason Arbon, Jeff Carollo')
+WebUI.verifyElementText(findTestObject('pid-author', [('index') : '4']), 'James A. Whittaker, Jason Arbon, Jeff Carollo')
 
-WebUI.verifyElementText(findTestObject('pid-price', [('index') : '4']),'$31.67')
+WebUI.verifyElementText(findTestObject('pid-price', [('index') : '4']), '$31.67')
+
+WebUI.click(findTestObject('Bookstore Library/pid4-item'))
 
 WebUI.closeBrowser()
 

@@ -18,9 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 // WebUI.openBrowser('')
-
 // WebUI.navigateToUrl(GlobalVariable.baseUrl)
-
 WebUI.setText(findTestObject('searchBar', [('index') : index]), title)
 
 WebUI.verifyElementText(findTestObject('pid-title', [('index') : index]), title)
@@ -31,4 +29,3 @@ WebUI.click(findTestObject('btn-clearText'))
 
 WebUI.delay(2)
 
-//WebUI.closeBrowser()

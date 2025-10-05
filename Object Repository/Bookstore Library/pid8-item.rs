@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>pid1-author</name>
+   <name>pid8-item</name>
    <tag></tag>
-   <elementGuidId>809cd5ed-089c-44d2-8b12-bad6cc2dd727</elementGuidId>
+   <elementGuidId>0efd7525-70bd-4deb-b762-136fe70b0d0a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//*[@id = 'pid8']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@id = 'pid1_author']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +22,6 @@
       <name>id</name>
       <type>Main</type>
       <value>pid1_author</value>
-      <webElementGuid>7e45534f-c1c8-43af-820a-299d2bab7dd4</webElementGuid>
+      <webElementGuid>e0a6b9ee-e8d4-4ffa-b34d-7470acf0e831</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

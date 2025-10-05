@@ -23,9 +23,11 @@ WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 WebUI.verifyElementText(findTestObject('pid-title', [('index') : '6']), 'Advanced Selenium in Java')
 
-WebUI.verifyElementText(findTestObject('pid-author', [('index') : '6']),'Paul Watson')
+WebUI.verifyElementText(findTestObject('pid-author', [('index') : '6']), 'Paul Watson')
 
-WebUI.verifyElementText(findTestObject('pid-price', [('index') : '6']),'$29.99')
+WebUI.verifyElementText(findTestObject('pid-price', [('index') : '6']), '$29.99')
+
+WebUI.click(findTestObject('Bookstore Library/pid6-item'))
 
 WebUI.closeBrowser()
 

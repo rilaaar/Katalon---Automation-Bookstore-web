@@ -23,9 +23,11 @@ WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 WebUI.verifyElementText(findTestObject('pid-title', [('index') : '7']), 'The Cucumber for Java Book')
 
-WebUI.verifyElementText(findTestObject('pid-author', [('index') : '7']),'Seb Rose')
+WebUI.verifyElementText(findTestObject('pid-author', [('index') : '7']), 'Seb Rose')
 
-WebUI.verifyElementText(findTestObject('pid-price', [('index') : '7']),'$34.99')
+WebUI.verifyElementText(findTestObject('pid-price', [('index') : '7']), '$34.99')
+
+WebUI.click(findTestObject('Bookstore Library/pid7-item'))
 
 WebUI.closeBrowser()
 

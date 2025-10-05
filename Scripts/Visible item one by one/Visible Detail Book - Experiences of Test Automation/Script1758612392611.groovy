@@ -23,9 +23,11 @@ WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 WebUI.verifyElementText(findTestObject('pid-title', [('index') : '2']), 'Experiences of Test Automation')
 
-WebUI.verifyElementText(findTestObject('pid-author', [('index') : '2']),'Dorothy Graham and Mark Fewster')
+WebUI.verifyElementText(findTestObject('pid-author', [('index') : '2']), 'Dorothy Graham and Mark Fewster')
 
-WebUI.verifyElementText(findTestObject('pid-price', [('index') : '2']),'$44.09')
+WebUI.verifyElementText(findTestObject('pid-price', [('index') : '2']), '$44.09')
+
+WebUI.click(findTestObject('Bookstore Library/pid2-item'))
 
 WebUI.closeBrowser()
 
