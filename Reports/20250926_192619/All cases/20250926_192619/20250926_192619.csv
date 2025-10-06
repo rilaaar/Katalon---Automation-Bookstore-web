@@ -1,0 +1,290 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+All cases,Chrome 140.0.0.0,,,2025-09-26 19:26:32,2025-09-26 19:28:17,1m - 45.663s,PASSED
+,,,,,,,
+Test Cases/Visible detail books,Chrome 140.0.0.0,,,2025-09-26 19:26:38,2025-09-26 19:26:42,4.035s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:26:38,2025-09-26 19:26:38,0.021s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:26:38,2025-09-26 19:26:39,0.885s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:26:39,2025-09-26 19:26:39,0.185s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:26:39,2025-09-26 19:26:40,0.147s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:26:40,2025-09-26 19:26:40,0.182s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:26:40,2025-09-26 19:26:42,2.081s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:26:42,2025-09-26 19:26:42,0.092s,PASSED
+,,,,,,,
+Test Cases/Visible detail books,Chrome 140.0.0.0,,,2025-09-26 19:26:42,2025-09-26 19:26:45,3.055s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:26:42,2025-09-26 19:26:42,0.019s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:26:42,2025-09-26 19:26:43,0.419s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:26:43,2025-09-26 19:26:43,0.168s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:26:43,2025-09-26 19:26:43,0.181s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:26:43,2025-09-26 19:26:43,0.155s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:26:43,2025-09-26 19:26:45,2.022s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:26:45,2025-09-26 19:26:45,0.005s,PASSED
+,,,,,,,
+Test Cases/Visible detail books,Chrome 140.0.0.0,,,2025-09-26 19:26:45,2025-09-26 19:26:48,2.871s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:26:45,2025-09-26 19:26:45,0.007s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:26:45,2025-09-26 19:26:46,0.221s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:26:46,2025-09-26 19:26:46,0.199s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:26:46,2025-09-26 19:26:46,0.202s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:26:46,2025-09-26 19:26:46,0.186s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:26:46,2025-09-26 19:26:48,2.017s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:26:48,2025-09-26 19:26:48,0.005s,PASSED
+,,,,,,,
+Test Cases/Visible detail books,Chrome 140.0.0.0,,,2025-09-26 19:26:49,2025-09-26 19:26:52,3.575s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:26:49,2025-09-26 19:26:49,0.007s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:26:49,2025-09-26 19:26:49,0.366s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:26:49,2025-09-26 19:26:49,0.293s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:26:49,2025-09-26 19:26:49,0.179s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:26:49,2025-09-26 19:26:50,0.651s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:26:50,2025-09-26 19:26:52,2.018s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:26:52,2025-09-26 19:26:52,0.005s,PASSED
+,,,,,,,
+Test Cases/Visible detail books,Chrome 140.0.0.0,,,2025-09-26 19:26:52,2025-09-26 19:26:55,2.871s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:26:52,2025-09-26 19:26:52,0.000s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:26:52,2025-09-26 19:26:52,0.245s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:26:52,2025-09-26 19:26:53,0.184s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:26:53,2025-09-26 19:26:53,0.197s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:26:53,2025-09-26 19:26:53,0.210s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:26:53,2025-09-26 19:26:55,2.006s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:26:55,2025-09-26 19:26:55,0.000s,PASSED
+,,,,,,,
+Test Cases/Visible detail books,Chrome 140.0.0.0,,,2025-09-26 19:26:55,2025-09-26 19:26:58,2.888s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:26:55,2025-09-26 19:26:55,0.000s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:26:55,2025-09-26 19:26:55,0.258s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:26:55,2025-09-26 19:26:56,0.173s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:26:56,2025-09-26 19:26:56,0.225s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:26:56,2025-09-26 19:26:56,0.199s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:26:56,2025-09-26 19:26:58,2.005s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:26:58,2025-09-26 19:26:58,0.000s,PASSED
+,,,,,,,
+Test Cases/Visible detail books,Chrome 140.0.0.0,,,2025-09-26 19:26:58,2025-09-26 19:27:01,2.915s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:26:58,2025-09-26 19:26:58,0.000s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:26:58,2025-09-26 19:26:58,0.297s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:26:58,2025-09-26 19:26:59,0.171s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:26:59,2025-09-26 19:26:59,0.185s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:26:59,2025-09-26 19:26:59,0.216s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:26:59,2025-09-26 19:27:01,2.018s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:01,2025-09-26 19:27:01,0.004s,PASSED
+,,,,,,,
+Test Cases/Visible detail books,Chrome 140.0.0.0,,,2025-09-26 19:27:01,2025-09-26 19:27:04,2.890s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:01,2025-09-26 19:27:01,0.000s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:01,2025-09-26 19:27:01,0.305s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:27:01,2025-09-26 19:27:02,0.169s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:27:02,2025-09-26 19:27:02,0.185s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:27:02,2025-09-26 19:27:02,0.191s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:02,2025-09-26 19:27:04,2.017s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:04,2025-09-26 19:27:04,0.004s,PASSED
+,,,,,,,
+Test Cases/Search by title book,Chrome 140.0.0.0,,,2025-09-26 19:27:04,2025-09-26 19:27:08,3.899s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:04,2025-09-26 19:27:04,0.015s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:27:05,2025-09-26 19:27:05,0.520s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:27:05,2025-09-26 19:27:05,0.200s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:05,2025-09-26 19:27:06,0.255s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:06,2025-09-26 19:27:06,0.224s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:06,2025-09-26 19:27:08,2.006s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:08,2025-09-26 19:27:08,0.002s,PASSED
+,,,,,,,
+Test Cases/Search by title book,Chrome 140.0.0.0,,,2025-09-26 19:27:08,2025-09-26 19:27:11,3.009s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:08,2025-09-26 19:27:08,0.015s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:27:08,2025-09-26 19:27:08,0.365s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:27:08,2025-09-26 19:27:08,0.166s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:08,2025-09-26 19:27:09,0.247s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:09,2025-09-26 19:27:09,0.201s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:09,2025-09-26 19:27:11,2.008s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:11,2025-09-26 19:27:11,0.000s,PASSED
+,,,,,,,
+Test Cases/Search by title book,Chrome 140.0.0.0,,,2025-09-26 19:27:11,2025-09-26 19:27:14,2.898s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:11,2025-09-26 19:27:11,0.020s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:27:11,2025-09-26 19:27:11,0.307s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:27:11,2025-09-26 19:27:11,0.159s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:11,2025-09-26 19:27:12,0.213s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:12,2025-09-26 19:27:12,0.181s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:12,2025-09-26 19:27:14,2.014s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:14,2025-09-26 19:27:14,0.003s,PASSED
+,,,,,,,
+Test Cases/Search by title book,Chrome 140.0.0.0,,,2025-09-26 19:27:14,2025-09-26 19:27:17,3.218s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:14,2025-09-26 19:27:14,0.017s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:27:14,2025-09-26 19:27:15,0.683s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:27:15,2025-09-26 19:27:15,0.110s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:15,2025-09-26 19:27:15,0.225s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:15,2025-09-26 19:27:15,0.177s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:15,2025-09-26 19:27:17,2.006s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:17,2025-09-26 19:27:17,0.000s,PASSED
+,,,,,,,
+Test Cases/Search by title book,Chrome 140.0.0.0,,,2025-09-26 19:27:17,2025-09-26 19:27:20,2.833s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:17,2025-09-26 19:27:17,0.000s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:27:17,2025-09-26 19:27:17,0.282s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:27:17,2025-09-26 19:27:18,0.114s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:18,2025-09-26 19:27:18,0.184s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:18,2025-09-26 19:27:18,0.217s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:18,2025-09-26 19:27:20,2.017s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:20,2025-09-26 19:27:20,0.001s,PASSED
+,,,,,,,
+Test Cases/Search by title book,Chrome 140.0.0.0,,,2025-09-26 19:27:20,2025-09-26 19:27:23,2.837s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:20,2025-09-26 19:27:20,0.000s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:27:20,2025-09-26 19:27:20,0.296s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:27:20,2025-09-26 19:27:20,0.123s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:20,2025-09-26 19:27:21,0.205s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:21,2025-09-26 19:27:21,0.184s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:21,2025-09-26 19:27:23,2.011s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:23,2025-09-26 19:27:23,0.002s,PASSED
+,,,,,,,
+Test Cases/Search by title book,Chrome 140.0.0.0,,,2025-09-26 19:27:23,2025-09-26 19:27:26,2.786s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:23,2025-09-26 19:27:23,0.000s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:27:23,2025-09-26 19:27:23,0.251s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:27:23,2025-09-26 19:27:23,0.112s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:23,2025-09-26 19:27:23,0.191s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:23,2025-09-26 19:27:24,0.197s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:24,2025-09-26 19:27:26,2.005s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:26,2025-09-26 19:27:26,0.000s,PASSED
+,,,,,,,
+Test Cases/Search by title book,Chrome 140.0.0.0,,,2025-09-26 19:27:26,2025-09-26 19:27:29,2.826s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:26,2025-09-26 19:27:26,0.000s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:27:26,2025-09-26 19:27:26,0.260s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":index]), title)",Chrome 140.0.0.0,,,2025-09-26 19:27:26,2025-09-26 19:27:26,0.132s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:26,2025-09-26 19:27:26,0.214s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:26,2025-09-26 19:27:27,0.201s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:27,2025-09-26 19:27:29,2.007s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:29,2025-09-26 19:27:29,0.004s,PASSED
+,,,,,,,
+Test Cases/Search by author book,Chrome 140.0.0.0,,,2025-09-26 19:27:29,2025-09-26 19:27:32,3.311s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:29,2025-09-26 19:27:29,0.015s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:27:29,2025-09-26 19:27:29,0.257s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:27:29,2025-09-26 19:27:29,0.158s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:29,2025-09-26 19:27:30,0.243s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:30,2025-09-26 19:27:30,0.217s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:30,2025-09-26 19:27:32,2.006s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:32,2025-09-26 19:27:32,0.003s,PASSED
+,,,,,,,
+Test Cases/Search by author book,Chrome 140.0.0.0,,,2025-09-26 19:27:32,2025-09-26 19:27:35,2.938s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:32,2025-09-26 19:27:32,0.000s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:27:32,2025-09-26 19:27:32,0.347s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:27:32,2025-09-26 19:27:32,0.142s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:32,2025-09-26 19:27:33,0.236s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:33,2025-09-26 19:27:33,0.203s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:33,2025-09-26 19:27:35,2.006s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:35,2025-09-26 19:27:35,0.001s,PASSED
+,,,,,,,
+Test Cases/Search by author book,Chrome 140.0.0.0,,,2025-09-26 19:27:35,2025-09-26 19:27:38,3.015s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:35,2025-09-26 19:27:35,0.000s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:27:35,2025-09-26 19:27:35,0.402s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:27:35,2025-09-26 19:27:35,0.136s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:35,2025-09-26 19:27:36,0.247s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:36,2025-09-26 19:27:36,0.202s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:36,2025-09-26 19:27:38,2.012s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:38,2025-09-26 19:27:38,0.000s,PASSED
+,,,,,,,
+Test Cases/Search by author book,Chrome 140.0.0.0,,,2025-09-26 19:27:38,2025-09-26 19:27:41,3.037s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:38,2025-09-26 19:27:38,0.000s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:27:38,2025-09-26 19:27:38,0.354s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:27:38,2025-09-26 19:27:38,0.148s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:38,2025-09-26 19:27:39,0.234s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:39,2025-09-26 19:27:39,0.273s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:39,2025-09-26 19:27:41,2.005s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:41,2025-09-26 19:27:41,0.002s,PASSED
+,,,,,,,
+Test Cases/Search by author book,Chrome 140.0.0.0,,,2025-09-26 19:27:41,2025-09-26 19:27:44,3.064s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:41,2025-09-26 19:27:41,0.008s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:27:41,2025-09-26 19:27:41,0.407s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:27:41,2025-09-26 19:27:42,0.165s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:42,2025-09-26 19:27:42,0.231s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:42,2025-09-26 19:27:42,0.223s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:42,2025-09-26 19:27:44,2.013s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:44,2025-09-26 19:27:44,0.004s,PASSED
+,,,,,,,
+Test Cases/Search by author book,Chrome 140.0.0.0,,,2025-09-26 19:27:44,2025-09-26 19:27:47,2.991s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:44,2025-09-26 19:27:44,0.000s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:27:44,2025-09-26 19:27:44,0.335s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:27:44,2025-09-26 19:27:45,0.132s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:45,2025-09-26 19:27:45,0.234s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:45,2025-09-26 19:27:45,0.246s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:45,2025-09-26 19:27:47,2.020s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:47,2025-09-26 19:27:47,0.003s,PASSED
+,,,,,,,
+Test Cases/Search by author book,Chrome 140.0.0.0,,,2025-09-26 19:27:47,2025-09-26 19:27:50,3.029s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:47,2025-09-26 19:27:47,0.000s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:27:47,2025-09-26 19:27:47,0.280s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:27:47,2025-09-26 19:27:48,0.146s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:48,2025-09-26 19:27:48,0.280s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:48,2025-09-26 19:27:48,0.282s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:48,2025-09-26 19:27:50,2.012s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:50,2025-09-26 19:27:50,0.004s,PASSED
+,,,,,,,
+Test Cases/Search by author book,Chrome 140.0.0.0,,,2025-09-26 19:27:50,2025-09-26 19:27:53,2.957s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:50,2025-09-26 19:27:50,0.001s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:27:50,2025-09-26 19:27:51,0.332s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":index]), author)",Chrome 140.0.0.0,,,2025-09-26 19:27:51,2025-09-26 19:27:51,0.163s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:51,2025-09-26 19:27:51,0.240s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:51,2025-09-26 19:27:51,0.196s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:51,2025-09-26 19:27:53,2.014s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:53,2025-09-26 19:27:53,0.003s,PASSED
+,,,,,,,
+Test Cases/Search by price book,Chrome 140.0.0.0,,,2025-09-26 19:27:53,2025-09-26 19:27:57,3.423s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:53,2025-09-26 19:27:53,0.000s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:27:54,2025-09-26 19:27:54,0.297s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:27:54,2025-09-26 19:27:54,0.163s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:54,2025-09-26 19:27:54,0.217s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:54,2025-09-26 19:27:55,0.224s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:55,2025-09-26 19:27:57,2.012s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:27:57,2025-09-26 19:27:57,0.004s,PASSED
+,,,,,,,
+Test Cases/Search by price book,Chrome 140.0.0.0,,,2025-09-26 19:27:57,2025-09-26 19:28:00,2.944s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:27:57,2025-09-26 19:27:57,0.014s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:27:57,2025-09-26 19:27:57,0.283s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:27:57,2025-09-26 19:27:57,0.168s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:27:57,2025-09-26 19:27:57,0.263s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:27:57,2025-09-26 19:27:58,0.202s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:27:58,2025-09-26 19:28:00,2.012s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:28:00,2025-09-26 19:28:00,0.000s,PASSED
+,,,,,,,
+Test Cases/Search by price book,Chrome 140.0.0.0,,,2025-09-26 19:28:00,2025-09-26 19:28:03,2.864s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:28:00,2025-09-26 19:28:00,0.000s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:28:00,2025-09-26 19:28:00,0.255s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:28:00,2025-09-26 19:28:00,0.148s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:28:00,2025-09-26 19:28:00,0.216s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:28:00,2025-09-26 19:28:01,0.211s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:28:01,2025-09-26 19:28:03,2.011s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:28:03,2025-09-26 19:28:03,0.004s,PASSED
+,,,,,,,
+Test Cases/Search by price book,Chrome 140.0.0.0,,,2025-09-26 19:28:03,2025-09-26 19:28:05,2.905s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:28:03,2025-09-26 19:28:03,0.000s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:28:03,2025-09-26 19:28:03,0.274s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:28:03,2025-09-26 19:28:03,0.145s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:28:03,2025-09-26 19:28:03,0.265s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:28:03,2025-09-26 19:28:03,0.200s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:28:03,2025-09-26 19:28:05,2.001s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:28:05,2025-09-26 19:28:05,0.003s,PASSED
+,,,,,,,
+Test Cases/Search by price book,Chrome 140.0.0.0,,,2025-09-26 19:28:05,2025-09-26 19:28:08,2.868s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:28:05,2025-09-26 19:28:05,0.000s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:28:05,2025-09-26 19:28:06,0.287s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:28:06,2025-09-26 19:28:06,0.150s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:28:06,2025-09-26 19:28:06,0.229s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:28:06,2025-09-26 19:28:06,0.185s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:28:06,2025-09-26 19:28:08,2.002s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:28:08,2025-09-26 19:28:08,0.003s,PASSED
+,,,,,,,
+Test Cases/Search by price book,Chrome 140.0.0.0,,,2025-09-26 19:28:08,2025-09-26 19:28:11,2.947s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:28:08,2025-09-26 19:28:08,0.000s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:28:08,2025-09-26 19:28:09,0.304s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:28:09,2025-09-26 19:28:09,0.192s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:28:09,2025-09-26 19:28:09,0.253s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:28:09,2025-09-26 19:28:09,0.178s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:28:09,2025-09-26 19:28:11,2.010s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:28:11,2025-09-26 19:28:11,0.003s,PASSED
+,,,,,,,
+Test Cases/Search by price book,Chrome 140.0.0.0,,,2025-09-26 19:28:11,2025-09-26 19:28:14,2.884s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:28:11,2025-09-26 19:28:11,0.000s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:28:11,2025-09-26 19:28:12,0.297s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:28:12,2025-09-26 19:28:12,0.154s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:28:12,2025-09-26 19:28:12,0.225s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:28:12,2025-09-26 19:28:12,0.197s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:28:12,2025-09-26 19:28:14,2.006s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:28:14,2025-09-26 19:28:14,0.003s,PASSED
+,,,,,,,
+Test Cases/Search by price book,Chrome 140.0.0.0,,,2025-09-26 19:28:14,2025-09-26 19:28:17,3.034s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-09-26 19:28:14,2025-09-26 19:28:14,0.000s,PASSED
+"setText(findTestObject(""searchBar"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:28:14,2025-09-26 19:28:15,0.303s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":index]), price)",Chrome 140.0.0.0,,,2025-09-26 19:28:15,2025-09-26 19:28:15,0.176s,PASSED
+"click(findTestObject(""pid-item"", [""index"":index]))",Chrome 140.0.0.0,,,2025-09-26 19:28:15,2025-09-26 19:28:15,0.301s,PASSED
+"click(findTestObject(""btn-clearText""))",Chrome 140.0.0.0,,,2025-09-26 19:28:15,2025-09-26 19:28:15,0.237s,PASSED
+delay(2),Chrome 140.0.0.0,,,2025-09-26 19:28:15,2025-09-26 19:28:17,2.004s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-09-26 19:28:17,2025-09-26 19:28:17,0.003s,PASSED

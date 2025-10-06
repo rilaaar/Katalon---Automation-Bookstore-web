@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Detail books one by one" time="77.965" tests="8" failures="0" errors="0">
+   <testsuite name="Detail books one by one" tests="8" failures="0" errors="0" time="77.965" skipped="0" timestamp="2025-09-26 19:39:59" hostname="rilaa - JustR" id="Test Suites/Detail books one by one">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Ra\\Katalon\\Automation bookstore\\Reports\\20250926_193949\\Detail books one by one\\20250926_193949"/>
+         <property name="logFiles" value="D:\\Ra\\Katalon\\Automation bookstore\\Reports\\20250926_193949\\Detail books one by one\\20250926_193949\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rilaa - JustR"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 140.0.0.0"/>
+         <property name="hostAddress" value="10.171.99.194"/>
+         <property name="sessionId" value="404f875ec8b5913f009a15a057f02da0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Visible item one by one/Visible Detail Book - Test Automation in the Real World" time="11.272" classname="Test Cases/Visible item one by one/Visible Detail Book - Test Automation in the Real World" status="PASSED">
+         <system-out><![CDATA[2025-09-26 19:40:00 - [TEST_CASE][PASSED] - Test Cases/Visible item one by one/Visible Detail Book - Test Automation in the Real World: Test Cases/Visible item one by one/Visible Detail Book - Test Automation in the Real World
+
+2025-09-26 19:40:00 - [TEST_STEP][PASSED] - Start listener action : beforeCase: Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:00 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:00 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (standalone/excluded): " + testCaseContext.getTestCaseId()): null
+
+2025-09-26 19:40:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-09-26 19:40:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-09-26 19:40:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-09-26 19:40:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-09-26 19:40:03 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:05 - [MESSAGE][PASSED] - Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-09-26 19:40:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-09-26 19:40:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-09-26 19:40:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-09-26 19:40:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-09-26 19:40:07 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:10 - [MESSAGE][PASSED] - Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":"1"]), "Test Automation in the Real World"): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-09-26 19:40:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-09-26 19:40:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":"1"]), "Greg Paskal"): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-09-26 19:40:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-09-26 19:40:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":"1"]), "$9.99"): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-09-26 19:40:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-09-26 19:40:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-09-26 19:40:11 - [MESSAGE][PASSED] - Browser is closed
+
+2025-09-26 19:40:11 - [TEST_STEP][PASSED] - Start listener action : afterCase: Browser is closed
+
+2025-09-26 19:40:11 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-09-26 19:40:11 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): Browser is closed
+
+2025-09-26 19:40:11 - [TEST_STEP][PASSED] - if (getWebDriver() != null): Browser is closed
+
+2025-09-26 19:40:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-09-26 19:40:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Visible item one by one/Visible Detail Book - Experiences of Test Automation" time="12.657" classname="Test Cases/Visible item one by one/Visible Detail Book - Experiences of Test Automation" status="PASSED">
+         <system-out><![CDATA[2025-09-26 19:40:11 - [TEST_CASE][PASSED] - Test Cases/Visible item one by one/Visible Detail Book - Experiences of Test Automation: Test Cases/Visible item one by one/Visible Detail Book - Experiences of Test Automation
+
+2025-09-26 19:40:11 - [TEST_STEP][PASSED] - Start listener action : beforeCase: Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:11 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:11 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (standalone/excluded): " + testCaseContext.getTestCaseId()): null
+
+2025-09-26 19:40:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-09-26 19:40:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-09-26 19:40:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-09-26 19:40:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-09-26 19:40:12 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:17 - [MESSAGE][PASSED] - Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-09-26 19:40:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-09-26 19:40:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-09-26 19:40:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-09-26 19:40:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-09-26 19:40:19 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:22 - [MESSAGE][PASSED] - Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":"2"]), "Experiences of Test Automation"): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-09-26 19:40:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-09-26 19:40:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":"2"]), "Dorothy Graham and Mark Fewster"): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-09-26 19:40:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-09-26 19:40:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":"2"]), "$44.09"): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-09-26 19:40:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-09-26 19:40:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-09-26 19:40:23 - [MESSAGE][PASSED] - Browser is closed
+
+2025-09-26 19:40:23 - [TEST_STEP][PASSED] - Start listener action : afterCase: Browser is closed
+
+2025-09-26 19:40:23 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-09-26 19:40:23 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): Browser is closed
+
+2025-09-26 19:40:23 - [TEST_STEP][PASSED] - if (getWebDriver() != null): Browser is closed
+
+2025-09-26 19:40:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-09-26 19:40:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Visible item one by one/Visible Detail Book - Agile Testing" time="11.404" classname="Test Cases/Visible item one by one/Visible Detail Book - Agile Testing" status="PASSED">
+         <system-out><![CDATA[2025-09-26 19:40:24 - [TEST_CASE][PASSED] - Test Cases/Visible item one by one/Visible Detail Book - Agile Testing: Test Cases/Visible item one by one/Visible Detail Book - Agile Testing
+
+2025-09-26 19:40:24 - [TEST_STEP][PASSED] - Start listener action : beforeCase: Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:24 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:24 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (standalone/excluded): " + testCaseContext.getTestCaseId()): null
+
+2025-09-26 19:40:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-09-26 19:40:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-09-26 19:40:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-09-26 19:40:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-09-26 19:40:25 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:28 - [MESSAGE][PASSED] - Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-09-26 19:40:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-09-26 19:40:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-09-26 19:40:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-09-26 19:40:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-09-26 19:40:30 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:34 - [MESSAGE][PASSED] - Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":"3"]), "Agile Testing"): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-09-26 19:40:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-09-26 19:40:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":"3"]), "Lisa Crispin and Janet Gregory"): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-09-26 19:40:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-09-26 19:40:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":"3"]), "$49.07"): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-09-26 19:40:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-09-26 19:40:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-09-26 19:40:35 - [MESSAGE][PASSED] - Browser is closed
+
+2025-09-26 19:40:35 - [TEST_STEP][PASSED] - Start listener action : afterCase: Browser is closed
+
+2025-09-26 19:40:35 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-09-26 19:40:35 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): Browser is closed
+
+2025-09-26 19:40:35 - [TEST_STEP][PASSED] - if (getWebDriver() != null): Browser is closed
+
+2025-09-26 19:40:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-09-26 19:40:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Visible item one by one/Visible Detail Book - How Google Tests Software" time="9.233" classname="Test Cases/Visible item one by one/Visible Detail Book - How Google Tests Software" status="PASSED">
+         <system-out><![CDATA[2025-09-26 19:40:35 - [TEST_CASE][PASSED] - Test Cases/Visible item one by one/Visible Detail Book - How Google Tests Software: Test Cases/Visible item one by one/Visible Detail Book - How Google Tests Software
+
+2025-09-26 19:40:35 - [TEST_STEP][PASSED] - Start listener action : beforeCase: Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:35 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:35 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (standalone/excluded): " + testCaseContext.getTestCaseId()): null
+
+2025-09-26 19:40:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-09-26 19:40:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-09-26 19:40:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-09-26 19:40:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-09-26 19:40:37 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:38 - [MESSAGE][PASSED] - Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-09-26 19:40:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-09-26 19:40:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-09-26 19:40:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-09-26 19:40:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-09-26 19:40:41 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:43 - [MESSAGE][PASSED] - Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":"4"]), "How Google Tests Software"): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-09-26 19:40:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-09-26 19:40:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":"4"]), "James A. Whittaker, Jason Arbon, Jeff Carollo"): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-09-26 19:40:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-09-26 19:40:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":"4"]), "$31.67"): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-09-26 19:40:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-09-26 19:40:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-09-26 19:40:44 - [MESSAGE][PASSED] - Browser is closed
+
+2025-09-26 19:40:44 - [TEST_STEP][PASSED] - Start listener action : afterCase: Browser is closed
+
+2025-09-26 19:40:44 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-09-26 19:40:44 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): Browser is closed
+
+2025-09-26 19:40:44 - [TEST_STEP][PASSED] - if (getWebDriver() != null): Browser is closed
+
+2025-09-26 19:40:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-09-26 19:40:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Visible item one by one/Visible Detail Book - Java For Testers" time="9.151" classname="Test Cases/Visible item one by one/Visible Detail Book - Java For Testers" status="PASSED">
+         <system-out><![CDATA[2025-09-26 19:40:44 - [TEST_CASE][PASSED] - Test Cases/Visible item one by one/Visible Detail Book - Java For Testers: Test Cases/Visible item one by one/Visible Detail Book - Java For Testers
+
+2025-09-26 19:40:44 - [TEST_STEP][PASSED] - Start listener action : beforeCase: Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:44 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:44 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (standalone/excluded): " + testCaseContext.getTestCaseId()): null
+
+2025-09-26 19:40:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-09-26 19:40:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-09-26 19:40:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-09-26 19:40:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-09-26 19:40:46 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:48 - [MESSAGE][PASSED] - Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-09-26 19:40:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-09-26 19:40:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-09-26 19:40:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-09-26 19:40:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-09-26 19:40:51 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:52 - [MESSAGE][PASSED] - Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":"5"]), "Java For Testers"): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-09-26 19:40:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-09-26 19:40:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":"5"]), "Alan Richardson"): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-09-26 19:40:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-09-26 19:40:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":"5"]), "$29.99"): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-09-26 19:40:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-09-26 19:40:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-09-26 19:40:53 - [MESSAGE][PASSED] - Browser is closed
+
+2025-09-26 19:40:53 - [TEST_STEP][PASSED] - Start listener action : afterCase: Browser is closed
+
+2025-09-26 19:40:53 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-09-26 19:40:53 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): Browser is closed
+
+2025-09-26 19:40:53 - [TEST_STEP][PASSED] - if (getWebDriver() != null): Browser is closed
+
+2025-09-26 19:40:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-09-26 19:40:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Visible item one by one/Visible Detail Book - Advanced Selenium in Java" time="7.839" classname="Test Cases/Visible item one by one/Visible Detail Book - Advanced Selenium in Java" status="PASSED">
+         <system-out><![CDATA[2025-09-26 19:40:53 - [TEST_CASE][PASSED] - Test Cases/Visible item one by one/Visible Detail Book - Advanced Selenium in Java: Test Cases/Visible item one by one/Visible Detail Book - Advanced Selenium in Java
+
+2025-09-26 19:40:53 - [TEST_STEP][PASSED] - Start listener action : beforeCase: Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:53 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:53 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (standalone/excluded): " + testCaseContext.getTestCaseId()): null
+
+2025-09-26 19:40:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-09-26 19:40:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-09-26 19:40:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-09-26 19:40:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-09-26 19:40:55 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:56 - [MESSAGE][PASSED] - Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:40:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-09-26 19:40:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-09-26 19:40:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-09-26 19:40:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-09-26 19:40:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-09-26 19:40:59 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:41:00 - [MESSAGE][PASSED] - Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:41:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":"6"]), "Advanced Selenium in Java"): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-09-26 19:41:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-09-26 19:41:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":"6"]), "Paul Watson"): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-09-26 19:41:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-09-26 19:41:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":"6"]), "$29.99"): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-09-26 19:41:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-09-26 19:41:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-09-26 19:41:01 - [MESSAGE][PASSED] - Browser is closed
+
+2025-09-26 19:41:01 - [TEST_STEP][PASSED] - Start listener action : afterCase: Browser is closed
+
+2025-09-26 19:41:01 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-09-26 19:41:01 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): Browser is closed
+
+2025-09-26 19:41:01 - [TEST_STEP][PASSED] - if (getWebDriver() != null): Browser is closed
+
+2025-09-26 19:41:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-09-26 19:41:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Visible item one by one/Visible Detail Book - The Cucumber for Java Book" time="8.257" classname="Test Cases/Visible item one by one/Visible Detail Book - The Cucumber for Java Book" status="PASSED">
+         <system-out><![CDATA[2025-09-26 19:41:01 - [TEST_CASE][PASSED] - Test Cases/Visible item one by one/Visible Detail Book - The Cucumber for Java Book: Test Cases/Visible item one by one/Visible Detail Book - The Cucumber for Java Book
+
+2025-09-26 19:41:01 - [TEST_STEP][PASSED] - Start listener action : beforeCase: Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:41:01 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:41:01 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (standalone/excluded): " + testCaseContext.getTestCaseId()): null
+
+2025-09-26 19:41:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-09-26 19:41:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-09-26 19:41:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-09-26 19:41:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-09-26 19:41:03 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:41:04 - [MESSAGE][PASSED] - Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:41:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-09-26 19:41:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-09-26 19:41:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-09-26 19:41:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-09-26 19:41:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-09-26 19:41:07 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:41:08 - [MESSAGE][PASSED] - Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:41:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":"7"]), "The Cucumber for Java Book"): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-09-26 19:41:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-09-26 19:41:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":"7"]), "Seb Rose"): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-09-26 19:41:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-09-26 19:41:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":"7"]), "$34.99"): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-09-26 19:41:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-09-26 19:41:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-09-26 19:41:09 - [MESSAGE][PASSED] - Browser is closed
+
+2025-09-26 19:41:09 - [TEST_STEP][PASSED] - Start listener action : afterCase: Browser is closed
+
+2025-09-26 19:41:09 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-09-26 19:41:09 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): Browser is closed
+
+2025-09-26 19:41:09 - [TEST_STEP][PASSED] - if (getWebDriver() != null): Browser is closed
+
+2025-09-26 19:41:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-09-26 19:41:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Visible item one by one/Visible Detail Book - BDD in Action" time="7.588" classname="Test Cases/Visible item one by one/Visible Detail Book - BDD in Action" status="PASSED">
+         <system-out><![CDATA[2025-09-26 19:41:09 - [TEST_CASE][PASSED] - Test Cases/Visible item one by one/Visible Detail Book - BDD in Action: Test Cases/Visible item one by one/Visible Detail Book - BDD in Action
+
+2025-09-26 19:41:09 - [TEST_STEP][PASSED] - Start listener action : beforeCase: Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:41:09 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:41:09 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (standalone/excluded): " + testCaseContext.getTestCaseId()): null
+
+2025-09-26 19:41:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-09-26 19:41:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-09-26 19:41:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-09-26 19:41:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-09-26 19:41:11 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:41:12 - [MESSAGE][PASSED] - Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:41:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2025-09-26 19:41:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2025-09-26 19:41:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2025-09-26 19:41:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2025-09-26 19:41:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2025-09-26 19:41:15 - [TEST_STEP][PASSED] - navigateToUrl(baseUrl): Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:41:16 - [MESSAGE][PASSED] - Navigate to 'https://automationbookstore.dev/' successfully
+
+2025-09-26 19:41:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":"8"]), "BDD in Action"): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-09-26 19:41:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-09-26 19:41:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":"8"]), "John Ferguson Smart"): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-09-26 19:41:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-09-26 19:41:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":"8"]), "$40.31"): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-09-26 19:41:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-09-26 19:41:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-09-26 19:41:17 - [MESSAGE][PASSED] - Browser is closed
+
+2025-09-26 19:41:17 - [TEST_STEP][PASSED] - Start listener action : afterCase: Browser is closed
+
+2025-09-26 19:41:17 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-09-26 19:41:17 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): Browser is closed
+
+2025-09-26 19:41:17 - [TEST_STEP][PASSED] - if (getWebDriver() != null): Browser is closed
+
+2025-09-26 19:41:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2025-09-26 19:41:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2025-09-26 19:39:59 - [TEST_SUITE][PASSED] - Detail books one by one: Test Cases/Visible item one by one/Visible Detail Book - BDD in Action]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

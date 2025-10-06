@@ -1,0 +1,90 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Detail books one by one,Chrome 140.0.0.0,,,2025-10-05 17:53:45,2025-10-05 17:55:19,1m - 34.096s,PASSED
+,,,,,,,
+Test Cases/Visible item one by one/Visible Detail Book - Test Automation in the Real World,Chrome 140.0.0.0,,,2025-10-05 17:53:46,2025-10-05 17:53:57,11.256s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-10-05 17:53:46,2025-10-05 17:53:51,5.468s,PASSED
+"openBrowser("""")",Chrome 140.0.0.0,,,2025-10-05 17:53:51,2025-10-05 17:53:54,2.792s,PASSED
+navigateToUrl(baseUrl),Chrome 140.0.0.0,,,2025-10-05 17:53:54,2025-10-05 17:53:55,1.098s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":""1""]), ""Test Automation in the Real World"")",Chrome 140.0.0.0,,,2025-10-05 17:53:55,2025-10-05 17:53:56,0.325s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":""1""]), ""Greg Paskal"")",Chrome 140.0.0.0,,,2025-10-05 17:53:56,2025-10-05 17:53:56,0.097s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":""1""]), ""$9.99"")",Chrome 140.0.0.0,,,2025-10-05 17:53:56,2025-10-05 17:53:56,0.103s,PASSED
+"click(findTestObject(""Bookstore Library/pid1-item""))",Chrome 140.0.0.0,,,2025-10-05 17:53:56,2025-10-05 17:53:56,0.199s,PASSED
+closeBrowser(),Chrome 140.0.0.0,,,2025-10-05 17:53:56,2025-10-05 17:53:57,0.832s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-10-05 17:53:57,2025-10-05 17:53:57,0.015s,PASSED
+,,,,,,,
+Test Cases/Visible item one by one/Visible Detail Book - Experiences of Test Automation,Chrome 140.0.0.0,,,2025-10-05 17:53:57,2025-10-05 17:54:06,9.302s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-10-05 17:53:57,2025-10-05 17:54:00,3.391s,PASSED
+"openBrowser("""")",Chrome 140.0.0.0,,,2025-10-05 17:54:01,2025-10-05 17:54:03,2.911s,PASSED
+navigateToUrl(baseUrl),Chrome 140.0.0.0,,,2025-10-05 17:54:03,2025-10-05 17:54:04,0.381s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":""2""]), ""Experiences of Test Automation"")",Chrome 140.0.0.0,,,2025-10-05 17:54:04,2025-10-05 17:54:05,1.207s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":""2""]), ""Dorothy Graham and Mark Fewster"")",Chrome 140.0.0.0,,,2025-10-05 17:54:05,2025-10-05 17:54:05,0.111s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":""2""]), ""$44.09"")",Chrome 140.0.0.0,,,2025-10-05 17:54:05,2025-10-05 17:54:05,0.110s,PASSED
+"click(findTestObject(""Bookstore Library/pid2-item""))",Chrome 140.0.0.0,,,2025-10-05 17:54:05,2025-10-05 17:54:05,0.170s,PASSED
+closeBrowser(),Chrome 140.0.0.0,,,2025-10-05 17:54:05,2025-10-05 17:54:06,0.825s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-10-05 17:54:06,2025-10-05 17:54:06,0.002s,PASSED
+,,,,,,,
+Test Cases/Visible item one by one/Visible Detail Book - Agile Testing,Chrome 140.0.0.0,,,2025-10-05 17:54:06,2025-10-05 17:54:17,10.482s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-10-05 17:54:06,2025-10-05 17:54:11,4.596s,PASSED
+"openBrowser("""")",Chrome 140.0.0.0,,,2025-10-05 17:54:11,2025-10-05 17:54:14,2.786s,PASSED
+navigateToUrl(baseUrl),Chrome 140.0.0.0,,,2025-10-05 17:54:14,2025-10-05 17:54:15,1.595s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":""3""]), ""Agile Testing"")",Chrome 140.0.0.0,,,2025-10-05 17:54:15,2025-10-05 17:54:16,0.110s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":""3""]), ""Lisa Crispin and Janet Gregory"")",Chrome 140.0.0.0,,,2025-10-05 17:54:16,2025-10-05 17:54:16,0.109s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":""3""]), ""$49.07"")",Chrome 140.0.0.0,,,2025-10-05 17:54:16,2025-10-05 17:54:16,0.097s,PASSED
+"click(findTestObject(""Bookstore Library/pid3-item""))",Chrome 140.0.0.0,,,2025-10-05 17:54:16,2025-10-05 17:54:16,0.148s,PASSED
+closeBrowser(),Chrome 140.0.0.0,,,2025-10-05 17:54:16,2025-10-05 17:54:17,0.852s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-10-05 17:54:17,2025-10-05 17:54:17,0.006s,PASSED
+,,,,,,,
+Test Cases/Visible item one by one/Visible Detail Book - How Google Tests Software,Chrome 140.0.0.0,,,2025-10-05 17:54:17,2025-10-05 17:54:34,17.227s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-10-05 17:54:17,2025-10-05 17:54:19,2.249s,PASSED
+"openBrowser("""")",Chrome 140.0.0.0,,,2025-10-05 17:54:19,2025-10-05 17:54:22,2.734s,PASSED
+navigateToUrl(baseUrl),Chrome 140.0.0.0,,,2025-10-05 17:54:22,2025-10-05 17:54:33,10.594s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":""4""]), ""How Google Tests Software"")",Chrome 140.0.0.0,,,2025-10-05 17:54:33,2025-10-05 17:54:33,0.149s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":""4""]), ""James A. Whittaker, Jason Arbon, Jeff Carollo"")",Chrome 140.0.0.0,,,2025-10-05 17:54:33,2025-10-05 17:54:33,0.122s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":""4""]), ""$31.67"")",Chrome 140.0.0.0,,,2025-10-05 17:54:33,2025-10-05 17:54:33,0.146s,PASSED
+"click(findTestObject(""Bookstore Library/pid4-item""))",Chrome 140.0.0.0,,,2025-10-05 17:54:33,2025-10-05 17:54:33,0.183s,PASSED
+closeBrowser(),Chrome 140.0.0.0,,,2025-10-05 17:54:33,2025-10-05 17:54:34,0.842s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-10-05 17:54:34,2025-10-05 17:54:34,0.003s,PASSED
+,,,,,,,
+Test Cases/Visible item one by one/Visible Detail Book - Java For Testers,Chrome 140.0.0.0,,,2025-10-05 17:54:34,2025-10-05 17:54:47,13.209s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-10-05 17:54:34,2025-10-05 17:54:40,6.443s,PASSED
+"openBrowser("""")",Chrome 140.0.0.0,,,2025-10-05 17:54:41,2025-10-05 17:54:44,3.083s,PASSED
+navigateToUrl(baseUrl),Chrome 140.0.0.0,,,2025-10-05 17:54:44,2025-10-05 17:54:44,0.230s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":""5""]), ""Java For Testers"")",Chrome 140.0.0.0,,,2025-10-05 17:54:44,2025-10-05 17:54:46,2.018s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":""5""]), ""Alan Richardson"")",Chrome 140.0.0.0,,,2025-10-05 17:54:46,2025-10-05 17:54:46,0.108s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":""5""]), ""$29.99"")",Chrome 140.0.0.0,,,2025-10-05 17:54:46,2025-10-05 17:54:46,0.121s,PASSED
+"click(findTestObject(""Bookstore Library/pid5-item""))",Chrome 140.0.0.0,,,2025-10-05 17:54:46,2025-10-05 17:54:46,0.184s,PASSED
+closeBrowser(),Chrome 140.0.0.0,,,2025-10-05 17:54:46,2025-10-05 17:54:47,0.837s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-10-05 17:54:47,2025-10-05 17:54:47,0.002s,PASSED
+,,,,,,,
+Test Cases/Visible item one by one/Visible Detail Book - Advanced Selenium in Java,Chrome 140.0.0.0,,,2025-10-05 17:54:47,2025-10-05 17:54:59,11.448s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-10-05 17:54:47,2025-10-05 17:54:53,5.314s,PASSED
+"openBrowser("""")",Chrome 140.0.0.0,,,2025-10-05 17:54:53,2025-10-05 17:54:55,2.786s,PASSED
+navigateToUrl(baseUrl),Chrome 140.0.0.0,,,2025-10-05 17:54:55,2025-10-05 17:54:57,1.873s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":""6""]), ""Advanced Selenium in Java"")",Chrome 140.0.0.0,,,2025-10-05 17:54:57,2025-10-05 17:54:58,0.137s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":""6""]), ""Paul Watson"")",Chrome 140.0.0.0,,,2025-10-05 17:54:58,2025-10-05 17:54:58,0.093s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":""6""]), ""$29.99"")",Chrome 140.0.0.0,,,2025-10-05 17:54:58,2025-10-05 17:54:58,0.093s,PASSED
+"click(findTestObject(""Bookstore Library/pid6-item""))",Chrome 140.0.0.0,,,2025-10-05 17:54:58,2025-10-05 17:54:58,0.132s,PASSED
+closeBrowser(),Chrome 140.0.0.0,,,2025-10-05 17:54:58,2025-10-05 17:54:59,0.818s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-10-05 17:54:59,2025-10-05 17:54:59,0.019s,PASSED
+,,,,,,,
+Test Cases/Visible item one by one/Visible Detail Book - The Cucumber for Java Book,Chrome 140.0.0.0,,,2025-10-05 17:54:59,2025-10-05 17:55:09,10.767s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-10-05 17:54:59,2025-10-05 17:55:03,3.886s,PASSED
+"openBrowser("""")",Chrome 140.0.0.0,,,2025-10-05 17:55:03,2025-10-05 17:55:06,3.255s,PASSED
+navigateToUrl(baseUrl),Chrome 140.0.0.0,,,2025-10-05 17:55:06,2025-10-05 17:55:06,0.374s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":""7""]), ""The Cucumber for Java Book"")",Chrome 140.0.0.0,,,2025-10-05 17:55:06,2025-10-05 17:55:08,1.701s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":""7""]), ""Seb Rose"")",Chrome 140.0.0.0,,,2025-10-05 17:55:08,2025-10-05 17:55:08,0.135s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":""7""]), ""$34.99"")",Chrome 140.0.0.0,,,2025-10-05 17:55:08,2025-10-05 17:55:08,0.093s,PASSED
+"click(findTestObject(""Bookstore Library/pid7-item""))",Chrome 140.0.0.0,,,2025-10-05 17:55:08,2025-10-05 17:55:09,0.150s,PASSED
+closeBrowser(),Chrome 140.0.0.0,,,2025-10-05 17:55:09,2025-10-05 17:55:09,0.887s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-10-05 17:55:09,2025-10-05 17:55:09,0.003s,PASSED
+,,,,,,,
+Test Cases/Visible item one by one/Visible Detail Book - BDD in Action,Chrome 140.0.0.0,,,2025-10-05 17:55:09,2025-10-05 17:55:19,9.929s,PASSED
+Start listener action : beforeCase,Chrome 140.0.0.0,,,2025-10-05 17:55:09,2025-10-05 17:55:13,4.023s,PASSED
+"openBrowser("""")",Chrome 140.0.0.0,,,2025-10-05 17:55:14,2025-10-05 17:55:17,3.058s,PASSED
+navigateToUrl(baseUrl),Chrome 140.0.0.0,,,2025-10-05 17:55:17,2025-10-05 17:55:18,1.406s,PASSED
+"verifyElementText(findTestObject(""pid-title"", [""index"":""8""]), ""BDD in Action"")",Chrome 140.0.0.0,,,2025-10-05 17:55:18,2025-10-05 17:55:18,0.114s,PASSED
+"verifyElementText(findTestObject(""pid-author"", [""index"":""8""]), ""John Ferguson Smart"")",Chrome 140.0.0.0,,,2025-10-05 17:55:18,2025-10-05 17:55:18,0.107s,PASSED
+"verifyElementText(findTestObject(""pid-price"", [""index"":""8""]), ""$40.31"")",Chrome 140.0.0.0,,,2025-10-05 17:55:18,2025-10-05 17:55:18,0.098s,PASSED
+"click(findTestObject(""Bookstore Library/pid8-item""))",Chrome 140.0.0.0,,,2025-10-05 17:55:18,2025-10-05 17:55:19,0.142s,PASSED
+closeBrowser(),Chrome 140.0.0.0,,,2025-10-05 17:55:19,2025-10-05 17:55:19,0.809s,PASSED
+Start listener action : afterCase,Chrome 140.0.0.0,,,2025-10-05 17:55:19,2025-10-05 17:55:19,0.005s,PASSED

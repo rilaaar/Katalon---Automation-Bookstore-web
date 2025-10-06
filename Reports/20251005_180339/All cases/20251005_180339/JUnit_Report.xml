@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All cases" time="91.338" tests="32" failures="0" errors="0">
+   <testsuite name="All cases" tests="32" failures="0" errors="0" time="91.338" skipped="0" timestamp="2025-10-05 18:03:47" hostname="rilaa - JustR" id="Test Suites/All cases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Ra\\Katalon\\Automation bookstore\\Reports\\20251005_180339\\All cases\\20251005_180339"/>
+         <property name="logFiles" value="D:\\Ra\\Katalon\\Automation bookstore\\Reports\\20251005_180339\\All cases\\20251005_180339\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rilaa - JustR"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 140.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.116"/>
+         <property name="sessionId" value="3412436816ace82f6af204609dcddd14"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Visible detail books" time="3.543" classname="Test Cases/Visible detail books" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:03:52 - [TEST_CASE][PASSED] - Test Cases/Visible detail books: Test Cases/Visible detail books
+
+2025-10-05 18:03:52 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:03:52 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:03:52 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:03:52 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:03:53 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:03:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":index]), title): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:03:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:03:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":index]), author): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:03:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:03:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":index]), price): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:03:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:03:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:03:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:03:56 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:03:56 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:03:56 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Visible detail books" time="2.583" classname="Test Cases/Visible detail books" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:03:56 - [TEST_CASE][PASSED] - Test Cases/Visible detail books: Test Cases/Visible detail books
+
+2025-10-05 18:03:56 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:03:56 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:03:56 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:03:56 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:03:56 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:03:56 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:03:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":index]), title): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:03:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:03:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":index]), author): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:03:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:03:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":index]), price): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:03:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:03:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:03:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:03:58 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:03:58 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:03:58 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Visible detail books" time="2.479" classname="Test Cases/Visible detail books" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:03:58 - [TEST_CASE][PASSED] - Test Cases/Visible detail books: Test Cases/Visible detail books
+
+2025-10-05 18:03:58 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:03:58 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:03:58 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:03:58 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:03:58 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:03:59 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:03:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":index]), title): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:03:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:03:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":index]), author): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:03:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:03:59 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":index]), price): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:03:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:03:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:01 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:01 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:01 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Visible detail books" time="2.524" classname="Test Cases/Visible detail books" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:01 - [TEST_CASE][PASSED] - Test Cases/Visible detail books: Test Cases/Visible detail books
+
+2025-10-05 18:04:01 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:01 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:01 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:01 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:01 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:01 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":index]), title): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":index]), author): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":index]), price): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:04:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:04:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:03 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:03 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:03 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Visible detail books" time="2.736" classname="Test Cases/Visible detail books" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:04 - [TEST_CASE][PASSED] - Test Cases/Visible detail books: Test Cases/Visible detail books
+
+2025-10-05 18:04:04 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:04 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:04 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:04 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:04 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:04 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":index]), title): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":index]), author): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":index]), price): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:04:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:04:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:06 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:06 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:06 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Visible detail books" time="2.44" classname="Test Cases/Visible detail books" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:06 - [TEST_CASE][PASSED] - Test Cases/Visible detail books: Test Cases/Visible detail books
+
+2025-10-05 18:04:06 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:06 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:06 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:06 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:06 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":index]), title): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":index]), author): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":index]), price): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:04:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:04:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:09 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:09 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:09 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Visible detail books" time="2.575" classname="Test Cases/Visible detail books" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:09 - [TEST_CASE][PASSED] - Test Cases/Visible detail books: Test Cases/Visible detail books
+
+2025-10-05 18:04:09 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:09 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:09 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:09 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:09 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:09 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":index]), title): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":index]), author): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":index]), price): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:04:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:04:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:11 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:11 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:11 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Visible detail books" time="2.486" classname="Test Cases/Visible detail books" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:11 - [TEST_CASE][PASSED] - Test Cases/Visible detail books: Test Cases/Visible detail books
+
+2025-10-05 18:04:11 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:11 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:11 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:11 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:11 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:12 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":index]), title): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":index]), author): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":index]), price): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:04:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:04:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:14 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:14 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:14 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by title book" time="3.122" classname="Test Cases/Search by title book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:14 - [TEST_CASE][PASSED] - Test Cases/Search by title book: Test Cases/Search by title book
+
+2025-10-05 18:04:14 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:14 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:14 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:14 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:14 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), title): Text 'Test Automation in the Real World' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:15 - [MESSAGE][PASSED] - Text 'Test Automation in the Real World' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":index]), title): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:15 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:15 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:17 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:17 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:17 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by title book" time="2.584" classname="Test Cases/Search by title book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:17 - [TEST_CASE][PASSED] - Test Cases/Search by title book: Test Cases/Search by title book
+
+2025-10-05 18:04:17 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:17 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:17 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:17 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:17 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), title): Text 'Experiences of Test Automation' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:17 - [MESSAGE][PASSED] - Text 'Experiences of Test Automation' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":index]), title): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:17 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:17 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:17 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:18 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:20 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:20 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:20 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by title book" time="2.6" classname="Test Cases/Search by title book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:20 - [TEST_CASE][PASSED] - Test Cases/Search by title book: Test Cases/Search by title book
+
+2025-10-05 18:04:20 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:20 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:20 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:20 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:20 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), title): Text 'Agile Testing' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:20 - [MESSAGE][PASSED] - Text 'Agile Testing' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":index]), title): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:20 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:20 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:20 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:20 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:22 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:22 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:22 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by title book" time="2.814" classname="Test Cases/Search by title book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:22 - [TEST_CASE][PASSED] - Test Cases/Search by title book: Test Cases/Search by title book
+
+2025-10-05 18:04:22 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:22 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:22 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:22 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:22 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), title): Text 'How Google Tests Software' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:23 - [MESSAGE][PASSED] - Text 'How Google Tests Software' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":index]), title): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:23 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:23 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:25 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:25 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:25 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by title book" time="2.587" classname="Test Cases/Search by title book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:25 - [TEST_CASE][PASSED] - Test Cases/Search by title book: Test Cases/Search by title book
+
+2025-10-05 18:04:25 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:25 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:25 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:25 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:25 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), title): Text 'Java For Testers' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:25 - [MESSAGE][PASSED] - Text 'Java For Testers' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":index]), title): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:25 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:26 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:26 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:26 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:28 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:28 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:28 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by title book" time="2.621" classname="Test Cases/Search by title book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:28 - [TEST_CASE][PASSED] - Test Cases/Search by title book: Test Cases/Search by title book
+
+2025-10-05 18:04:28 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:28 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:28 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:28 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:28 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), title): Text 'Advanced Selenium in Java' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:28 - [MESSAGE][PASSED] - Text 'Advanced Selenium in Java' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":index]), title): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:28 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:28 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:30 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:30 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:30 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by title book" time="2.538" classname="Test Cases/Search by title book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:30 - [TEST_CASE][PASSED] - Test Cases/Search by title book: Test Cases/Search by title book
+
+2025-10-05 18:04:30 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:30 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:30 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:30 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:30 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), title): Text 'The Cucumber for Java Book' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:31 - [MESSAGE][PASSED] - Text 'The Cucumber for Java Book' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":index]), title): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:31 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:31 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:31 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:31 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:33 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:33 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:33 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by title book" time="2.583" classname="Test Cases/Search by title book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:33 - [TEST_CASE][PASSED] - Test Cases/Search by title book: Test Cases/Search by title book
+
+2025-10-05 18:04:33 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:33 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:33 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:33 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:33 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), title): Text 'BDD in Action' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:33 - [MESSAGE][PASSED] - Text 'BDD in Action' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-title", ["index":index]), title): Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-title' are matched.
+
+2025-10-05 18:04:33 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:33 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:33 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:34 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:36 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:36 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:36 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by author book" time="2.75" classname="Test Cases/Search by author book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:36 - [TEST_CASE][PASSED] - Test Cases/Search by author book: Test Cases/Search by author book
+
+2025-10-05 18:04:36 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:36 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:36 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:36 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:36 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), author): Text 'Greg Paskal' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:36 - [MESSAGE][PASSED] - Text 'Greg Paskal' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":index]), author): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:36 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:36 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:38 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:38 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:38 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by author book" time="2.568" classname="Test Cases/Search by author book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:38 - [TEST_CASE][PASSED] - Test Cases/Search by author book: Test Cases/Search by author book
+
+2025-10-05 18:04:38 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:38 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:38 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:38 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:38 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), author): Text 'Dorothy Graham and Mark Fewster' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:39 - [MESSAGE][PASSED] - Text 'Dorothy Graham and Mark Fewster' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":index]), author): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:39 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:39 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:39 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:39 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:41 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:41 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:41 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by author book" time="2.638" classname="Test Cases/Search by author book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:41 - [TEST_CASE][PASSED] - Test Cases/Search by author book: Test Cases/Search by author book
+
+2025-10-05 18:04:41 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:41 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:41 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:41 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:41 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), author): Text 'Lisa Crispin and Janet Gregory' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:41 - [MESSAGE][PASSED] - Text 'Lisa Crispin and Janet Gregory' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":index]), author): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:41 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:41 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:42 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:44 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:44 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:44 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by author book" time="2.63" classname="Test Cases/Search by author book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:44 - [TEST_CASE][PASSED] - Test Cases/Search by author book: Test Cases/Search by author book
+
+2025-10-05 18:04:44 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:44 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:44 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:44 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:44 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), author): Text 'James A. Whittaker, Jason Arbon, Jeff Carollo' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:44 - [MESSAGE][PASSED] - Text 'James A. Whittaker, Jason Arbon, Jeff Carollo' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":index]), author): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:44 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:44 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:44 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:44 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:46 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:46 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:46 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by author book" time="2.62" classname="Test Cases/Search by author book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:46 - [TEST_CASE][PASSED] - Test Cases/Search by author book: Test Cases/Search by author book
+
+2025-10-05 18:04:46 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:46 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:46 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:46 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:46 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), author): Text 'Alan Richardson' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:46 - [MESSAGE][PASSED] - Text 'Alan Richardson' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":index]), author): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:47 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:47 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:49 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:49 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:49 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by author book" time="2.635" classname="Test Cases/Search by author book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:49 - [TEST_CASE][PASSED] - Test Cases/Search by author book: Test Cases/Search by author book
+
+2025-10-05 18:04:49 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:49 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:49 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:49 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:49 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), author): Text 'Paul Watson' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:49 - [MESSAGE][PASSED] - Text 'Paul Watson' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":index]), author): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:49 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:49 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:51 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:51 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:51 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by author book" time="2.534" classname="Test Cases/Search by author book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:52 - [TEST_CASE][PASSED] - Test Cases/Search by author book: Test Cases/Search by author book
+
+2025-10-05 18:04:52 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:52 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:52 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:52 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:52 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), author): Text 'Seb Rose' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:52 - [MESSAGE][PASSED] - Text 'Seb Rose' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":index]), author): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:52 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:52 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:52 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:52 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:54 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:54 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:54 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by author book" time="2.573" classname="Test Cases/Search by author book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:54 - [TEST_CASE][PASSED] - Test Cases/Search by author book: Test Cases/Search by author book
+
+2025-10-05 18:04:54 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:54 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:54 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:54 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:54 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), author): Text 'John Ferguson Smart' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:54 - [MESSAGE][PASSED] - Text 'John Ferguson Smart' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-author", ["index":index]), author): Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-author' are matched.
+
+2025-10-05 18:04:54 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:54 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:54 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:55 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:04:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:04:57 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:04:57 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:04:57 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by price book" time="2.902" classname="Test Cases/Search by price book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:04:57 - [TEST_CASE][PASSED] - Test Cases/Search by price book: Test Cases/Search by price book
+
+2025-10-05 18:04:57 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:04:57 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:04:57 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:04:57 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:04:57 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), price): Text '$9.99' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:57 - [MESSAGE][PASSED] - Text '$9.99' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:04:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":index]), price): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:04:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:04:57 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:57 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:04:57 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:58 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:04:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:05:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:05:00 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:05:00 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:05:00 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by price book" time="2.536" classname="Test Cases/Search by price book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:05:00 - [TEST_CASE][PASSED] - Test Cases/Search by price book: Test Cases/Search by price book
+
+2025-10-05 18:05:00 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:05:00 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:05:00 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:05:00 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:05:00 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), price): Text '$44.09' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:05:00 - [MESSAGE][PASSED] - Text '$44.09' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:05:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":index]), price): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:05:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:05:00 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:05:00 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:05:00 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:05:00 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:05:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:05:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:05:02 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:05:02 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:05:02 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by price book" time="2.565" classname="Test Cases/Search by price book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:05:02 - [TEST_CASE][PASSED] - Test Cases/Search by price book: Test Cases/Search by price book
+
+2025-10-05 18:05:02 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:05:02 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:05:02 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:05:02 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:05:02 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), price): Text '$49.07' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:05:02 - [MESSAGE][PASSED] - Text '$49.07' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:05:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":index]), price): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:05:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:05:02 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:05:03 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:05:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:05:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:05:05 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:05:05 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:05:05 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by price book" time="2.6" classname="Test Cases/Search by price book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:05:05 - [TEST_CASE][PASSED] - Test Cases/Search by price book: Test Cases/Search by price book
+
+2025-10-05 18:05:05 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:05:05 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:05:05 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:05:05 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:05:05 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), price): Text '$31.67' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:05:05 - [MESSAGE][PASSED] - Text '$31.67' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:05:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":index]), price): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:05:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:05:05 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:05:05 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:05:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:05:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:05:07 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:05:07 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:05:07 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by price book" time="2.599" classname="Test Cases/Search by price book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:05:07 - [TEST_CASE][PASSED] - Test Cases/Search by price book: Test Cases/Search by price book
+
+2025-10-05 18:05:07 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:05:07 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:05:07 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:05:07 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:05:07 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), price): Text '$29.99' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:05:08 - [MESSAGE][PASSED] - Text '$29.99' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:05:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":index]), price): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:05:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:05:08 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:05:08 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:05:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:05:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:05:10 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:05:10 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:05:10 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by price book" time="2.798" classname="Test Cases/Search by price book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:05:10 - [TEST_CASE][PASSED] - Test Cases/Search by price book: Test Cases/Search by price book
+
+2025-10-05 18:05:10 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:05:10 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:05:10 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:05:10 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:05:10 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), price): Text '$29.99' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:05:10 - [MESSAGE][PASSED] - Text '$29.99' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:05:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":index]), price): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:05:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:05:10 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:05:11 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:05:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:05:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:05:13 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:05:13 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:05:13 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by price book" time="2.553" classname="Test Cases/Search by price book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:05:13 - [TEST_CASE][PASSED] - Test Cases/Search by price book: Test Cases/Search by price book
+
+2025-10-05 18:05:13 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:05:13 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:05:13 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:05:13 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:05:13 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), price): Text '$34.99' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:05:13 - [MESSAGE][PASSED] - Text '$34.99' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:05:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":index]), price): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:05:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:05:13 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:05:13 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:05:13 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:05:13 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:05:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:05:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:05:15 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:05:15 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:05:15 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search by price book" time="2.533" classname="Test Cases/Search by price book" status="PASSED">
+         <system-out><![CDATA[2025-10-05 18:05:15 - [TEST_CASE][PASSED] - Test Cases/Search by price book: Test Cases/Search by price book
+
+2025-10-05 18:05:15 - [TEST_STEP][PASSED] - Start listener action : beforeCase: null
+
+2025-10-05 18:05:15 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null
+
+2025-10-05 18:05:15 - [TEST_STEP][PASSED] - else: null
+
+2025-10-05 18:05:15 - [TEST_STEP][PASSED] - println("=== BeforeTestCase (suite): " + testCaseContext.getTestCaseId()): null
+
+2025-10-05 18:05:15 - [TEST_STEP][PASSED] - setText(findTestObject("searchBar", ["index":index]), price): Text '$40.31' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:05:16 - [MESSAGE][PASSED] - Text '$40.31' is set on object 'Object Repository/searchBar'
+
+2025-10-05 18:05:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("pid-price", ["index":index]), price): Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:05:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/pid-price' are matched.
+
+2025-10-05 18:05:16 - [TEST_STEP][PASSED] - click(findTestObject("pid-item", ["index":index])): Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/pid-item' is clicked on
+
+2025-10-05 18:05:16 - [TEST_STEP][PASSED] - click(findTestObject("btn-clearText")): Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/btn-clearText' is clicked on
+
+2025-10-05 18:05:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2025-10-05 18:05:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2025-10-05 18:05:18 - [TEST_STEP][PASSED] - Start listener action : afterCase: null
+
+2025-10-05 18:05:18 - [TEST_STEP][PASSED] - println("=== AfterTestCase: " + testCaseContext.getTestCaseId() + " | Status: " + testCaseContext.getTestCaseStatus()): null
+
+2025-10-05 18:05:18 - [TEST_STEP][PASSED] - if (!(isSuiteMode)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2025-10-05 18:03:47 - [TEST_SUITE][PASSED] - All cases: Test Cases/Search by price book]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
